@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+ 
+body{
+ 
+  font-family: 'Nunito Sans', sans-serif;
+  background-clip: content-box;
+  
+  
+}
+.light{
+  background: transparent;
+}
+.lightC{
+  background:hsl(0,0%,94%);
+}
+
+.lightSC{
+  background:hsl(0,0%,100%);
+}
+
+.dark{
+  background:hsl(207, 26%, 17%);
+  color:hsl(0,0%,94%);
+  
+}
+.back{
+  border:none;
+  background: transparent;
+  border-radius: 3px;
+  box-shadow: 4px 4px 4px 4px hsl(0, 0%, 80%);
+}
+.ser{
+  display:inline-block;
+  margin-left: 60px;
+}
+.fil{
+  display:inline-block;
+  margin-left: 950px;
+}
+.border{
+  display: inline;
+  margin:10px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 4px hsl(0, 0%, 80%);
+}
+.lin{
+  text-decoration: none;
+  color:hsl(200, 15%, 8%);
+
+}
+.l{
+  display:inline-block;
+}
+.cu{
+  display:inline-block;
+}
+.sC{
+  padding-left: 50px;
+  position: relative;
+}
+.sFlag{
+  display:inline-block; 
+  top:140px;
+  position: absolute;
+  width: 500px;
+  height: 400px;
+}
+.sFimg{
+  height: 100%;
+  width:100%;
+  border-radius: 10px;
+}
+.a{
+  display: inline-block;
+  padding-top: 100px;
+  margin-left: 650px;
+  margin-bottom: 192px;
+}
+.sText{
+  margin-left: 70px;
+}
+.info1{
+  display: inline-block;
+}
+.info2{
+  display: inline-block;
+  margin-left: 35px;
+}
+.h{
+  display: inline-block;
+  margin-left: 50px;
+}
+.mod{
+  border:none;
+  display: inline-block;
+  margin-left: 800px;
+}
+.but{
+  border:none;
+  background: transparent;
+}
+.flag{
+  background-size: cover;
+  height: 200px;
+  width: 250px;
+  border-radius: 7px 7px 0 0;
+}
+.flags{
+  display: flex ;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin:20px;
+  padding: 2px;
+}
+.explain{
+  background:hsl(0,0%,98%);
+  font-size: 5px;
+  padding: 30px;
+  margin-top: -20px;
+  width: 190px;
+  border-radius: 0 0 7px 7px;
+  margin-bottom: 15px;
+}
+

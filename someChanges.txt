@@ -1,0 +1,25 @@
+/* useEffect(()=>{
+    const fetchCD=async()=>{
+      debugger;
+   const response = await fetch('https://restcountries.eu/rest/v2/name/' + name)
+   console.log(response)
+   const c1=await response.json()
+   setC(c1)
+   console.log(c)
+    }
+    fetchCD()
+  },[])
+
+(() => {
+    axios.get(`https://restcountries.eu/rest/v2/name/${name}`).then((response) => {
+      setCountrysList(response.data);
+    });
+    
+  }, []);
+nativeName,
+         subregion,
+         languages,
+         currencies,
+         topLevelDomain,
+         alpha2Code,
+         borders*/
